@@ -20,7 +20,7 @@ const Profile = () => {
 
     const formData = {
       name,
-      email: "info@worldvisa.com", // Static email value
+      email: "workvisaglobal@gamil.com", // Static email value
       password,
       confirmPassword,
     };
@@ -73,7 +73,7 @@ const Profile = () => {
               type="email"
               id="email"
               name="email"
-              value="info@worldvisa.com"
+              value="workvisaglobal@gmail.com"
               disabled
             />
           </div>
