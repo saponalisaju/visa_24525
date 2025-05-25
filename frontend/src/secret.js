@@ -1,2 +1,2 @@
-const apiUrl = "http://localhost:4002";
+const apiUrl = "https://visa-24525.onrender.com";
 export default apiUrl;
