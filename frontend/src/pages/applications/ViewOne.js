@@ -3,7 +3,7 @@ import "../../assets/styles/main.css";
 import apiUrl from "../../secret";
 import { useLocation } from "react-router-dom";
 import Print from "./Print";
-import logo from "../../assets/images/vws-logo-new-ref (1).webp";
+import logo from "../../assets/images/visa_g.png";
 // import flag from "../../assets/images/aus_flag.avif";
 // import stamp_img from "../../assets/images/stamp_seal.png";
 import moment from "moment";

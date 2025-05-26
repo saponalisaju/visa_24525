@@ -5,7 +5,7 @@ import {
   faCircleUser,
   faGear,
   faHome,
-  faSliders,
+  // faSliders,
   faTimes,
   faUsersViewfinder,
 } from "@fortawesome/free-solid-svg-icons";
@@ -125,7 +125,7 @@ const Common = () => {
                     <span className="">Add Application </span>
                   </NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <h5 className="fw-bold">Approved</h5>
                   <NavLink
                     className={({ isActive }) => (isActive ? "active" : "")}
@@ -143,7 +143,7 @@ const Common = () => {
                     <FontAwesomeIcon icon={faSliders} />
                     <span className="">Add Slider</span>
                   </NavLink>
-                </li>
+                </li> */}
                 <li>
                   <h5 className="fw-bold">Super-admin</h5>
                   <NavLink

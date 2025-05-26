@@ -3,7 +3,7 @@ import "../../assets/styles/main.css";
 import { useLocation, useNavigate, Link } from "react-router-dom";
 import api from "./api";
 // import logo_p from "../../assets/images/aus_flag.avif";
-import logo_q from "../../assets/images/vws-logo-new-ref (1).webp";
+import logo_q from "../../assets/images/visa_g.png";
 import moment from "moment";
 
 const ALLOWED_FILE_TYPES = ["image/jpeg", "image/png", "image/jpg"];
@@ -332,11 +332,7 @@ const UserView = () => {
                 <p>No image available</p>
               )}
               {/* <img className="logo_p " src={logo_p} alt="flag" /> */}
-              <img
-                className="logo_q bg-danger-subtle"
-                src={logo_q}
-                alt="brand-logo"
-              />
+              <img className="logo_q " src={logo_q} alt="brand-logo" />
             </div>
             <div className="border border-2 view_one mb-2 ">
               <h2 className="text-black fw-bold text-center text-bg-light text-uppercase">
