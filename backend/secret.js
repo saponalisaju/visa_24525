@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const serverPort = process.env.SERVER_PORT || 3002;
+const serverPort = process.env.SERVER_PORT || 4003;
 const mongodbURL =
   process.env.MONGO_URL || "http://127.0.0.1:27017/visa24525DB";
 const secretKey = process.env.SECRET_KEY || "amarsonarbangla";
